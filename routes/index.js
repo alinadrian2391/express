@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Carbonell Furniture' });
+  res.render('index', { title: 'Carbonell Furniture',designer: 'Yuliet Carbonell' });
 });
 
 module.exports = router;
